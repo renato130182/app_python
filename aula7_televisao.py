@@ -14,12 +14,17 @@ class Televisao:
     def diminui_canal(self):
         self.canal-=1
 
-tel = Televisao()
-print(tel.ligada)
-tel.power()
-print(tel.ligada)
-print(tel.canal)
-tel.diminui_canal()
-print(tel.canal)
-tel.aumenta_canal()
-print('Canal: {}'.format(tel.canal))
+if __name__ == '__main__':
+    #Evita execyção deste trecho se não for chamdo da propria classe
+    tel = Televisao()
+    print(tel.ligada)
+    tel.power()
+    print(tel.ligada)
+    print(tel.canal)
+    tel.diminui_canal()
+    print(tel.canal)
+    tel.aumenta_canal()
+    print('Canal: {}'.format(tel.canal))
+
+print(0%2)
+

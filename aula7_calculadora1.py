@@ -14,14 +14,16 @@ class Calculadora:
     def divisao(self):
         return  self.a/self.b
 
-# print(soma(1,2))
-# print (soma(3,4))
-# print(subtracao(10,2))
+if __name__ == '__main__':
 
-calculadora = Calculadora(10,2)
-print(calculadora.a)
-print(calculadora.b)
-print(calculadora.soma())
-print(calculadora.subtracao())
-print(calculadora.divisao())
-print(calculadora.mutiplicacao())
+    # print(soma(1,2))
+    # print (soma(3,4))
+    # print(subtracao(10,2))
+
+    calculadora = Calculadora(10,2)
+    print(calculadora.a)
+    print(calculadora.b)
+    print(calculadora.soma())
+    print(calculadora.subtracao())
+    print(calculadora.divisao())
+    print(calculadora.mutiplicacao())
